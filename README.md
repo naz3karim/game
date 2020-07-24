@@ -1,10 +1,10 @@
-# ayonpal-game
 # Checkers
+
 ## Running
 * Clone this Repo.
 * Run `npm install`
 * Connect mongodb. Go to [Atlas](https://account.mongodb.com/account/login). Create Account. Add database login info in `.env` file. !
-* Add email and password for contact us and mongodb uri to work in `.env` 
+* Add email and password for contact us and mongodb uri to work in `.env`
 
     > DB=mongodb+srv://USERNAME:PASSWORD@cluster0-f5vnp.mongodb.net/DATABASE_NAME?retryWrites=true&w=majority
 
@@ -24,17 +24,11 @@ Play by selecting your piece and clicking on the tile you want to move to. Click
 ## Code
 The code supports all the features of checkers including kingship and double/triple/quadruple jumping. The Board object controls the board and therefore the game. The pieces and tiles instances are used in the game for checking whether a piece can be moved, moving a piece, deleting a piece, checking whether tile is in range, and much more. The script is fully commented and original.
 
-## ToDo
 
-* [x] Add login/Register
-* [x] Store Game states after each move
-* [x] Show stored game states to resume
-* [x] Options To remove  saved games
-* [x] Add winners to database
-* [x] Add about us
-* [x] Add Contact Us
-* [x] Add Rules of the game
-* [x] Add History Of the Game
-* [x] Add link to Google Search
-* [x] Other static links
-* [ ] Update About page with real image, names and link
+### Turning on 'less secure apps' settings as mailbox user
+
+1.  Go to your ([Google Account](https://myaccount.google.com/)).
+2.  On the left navigation panel, click `Security`.
+3.  On the bottom of the page, in the _Less secure app access panel_, click `Turn on access`.
+    **If you don't see this setting, your administrator might have turned off less secure app account access (_check the instruction above_).**
+4.  Click the `Save` button.

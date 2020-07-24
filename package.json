@@ -1,23 +1,23 @@
 {
-  "name": "ayonpal-game",
+  "name": "game",
   "version": "1.0.0",
   "description": "Checkers Game  project",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vidhyav656/ayonpal-game.git"
+    "url": "git+https://github.com/naz3karim/game.git"
   },
   "keywords": [
     "checkers",
     "js",
     "express"
   ],
-  "author": "Ayon Pal",
+  "author": "vidhya",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vidhyav656/ayonpal-game/issues"
+    "url": "https://github.com/naz3karim/game/issues"
   },
-  "homepage": "https://github.com/vidhyav656/ayonpal-game#readme",
+  "homepage": "https://github.com/naz3karim/game#readme",
   "scripts": {
     "start": "node ./bin/www"
   },
