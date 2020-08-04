@@ -18,7 +18,7 @@
 
     > DEV_TEAM=DEV_TEAM_EMAIL
 
-* Run `DEBUG=src* npm start`. Install nodemon if error occures (`npm install -g nodemon`)
+* Run `npm start`. Install nodemon if error occures (`npm install -g nodemon`)
 * Go to [http://localhost:3000](http://localhost:3000)
 ## Using It
 Play by selecting your piece and clicking on the tile you want to move to. Click [here](http://www.itsyourturn.com/t_helptopic2030.html) to learn how to play checkers. Jumping when available is enforced.
