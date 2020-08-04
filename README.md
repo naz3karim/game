@@ -1,4 +1,6 @@
-# Checkers
+# Checkers 
+
+[Demo](https://gamechecker.herokuapp.com/)
 
 ## Running
 * Clone this Repo.
